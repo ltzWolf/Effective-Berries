@@ -1,6 +1,7 @@
 package net.wolf.effectiveberries;
 
 import net.minecraft.world.item.CreativeModeTabs;
+import net.wolf.effectiveberries.item.ModCreativeModeTabs;
 import net.wolf.effectiveberries.item.ModItems;
 import org.slf4j.Logger;
 
@@ -36,6 +37,8 @@ public class EffectiveBerries {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
 
         // Register the item to a creative tab
@@ -51,7 +54,7 @@ public class EffectiveBerries {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
-            event.accept(ModItems.SPEED_BERRIES);
+            event.accept(ModItems.SWIFTNESS_BERRIES);
         }
     }
 
