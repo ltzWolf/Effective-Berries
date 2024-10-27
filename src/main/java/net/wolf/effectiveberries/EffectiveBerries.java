@@ -55,6 +55,7 @@ public class EffectiveBerries {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.SWIFTNESS_BERRIES);
+            event.accept(ModItems.LEAPING_BERRIES);
         }
     }
 

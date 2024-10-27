@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.effectiveberries.effective_berries"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.SWIFTNESS_BERRIES);
+                        output.accept(ModItems.LEAPING_BERRIES);
                      }).build());
 
 

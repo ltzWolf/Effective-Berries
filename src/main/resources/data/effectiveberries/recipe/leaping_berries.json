@@ -9,7 +9,7 @@
       "type": "neoforge:components",
       "items": "minecraft:potion",
       "components": {
-        "minecraft:potion_contents": {"potion": "minecraft:strong_swiftness"}
+        "minecraft:potion_contents": {"potion": "minecraft:strong_leaping"}
       }
     },
     "Y": {
@@ -23,6 +23,6 @@
   ],
   "result": {
     "count": 4,
-    "id": "effectiveberries:swiftness_berries"
+    "id": "effectiveberries:leaping_berries"
   }
 }

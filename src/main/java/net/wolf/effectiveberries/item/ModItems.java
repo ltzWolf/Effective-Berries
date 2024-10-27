@@ -11,6 +11,8 @@ public class ModItems {
 
     public static final DeferredItem<Item> SWIFTNESS_BERRIES = ITEMS.register("swiftness_berries",
             () -> new Item(new Item.Properties().food(ModFoodProperties.SWIFTNESS_BERRIES).stacksTo(16)));
+    public static final DeferredItem<Item> LEAPING_BERRIES = ITEMS.register("leaping_berries",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.LEAPING_BERRIES).stacksTo(16)));
 
 
 
