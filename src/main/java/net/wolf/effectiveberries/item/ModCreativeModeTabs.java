@@ -21,6 +21,9 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.SWIFTNESS_BERRIES);
                         output.accept(ModItems.LEAPING_BERRIES);
+                        output.accept(ModItems.STRENGTH_BERRIES);
+                        output.accept(ModItems.REGENERATION_BERRIES);
+                        output.accept(ModItems.JACK_OF_ALL_BERRIES);
                      }).build());
 
 

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "effectiveberries:swiftness_berries"
+    },
+    "X": {
+      "item": "effectiveberries:leaping_berries"
+    },
+    "Y": {
+      "item": "effectiveberries:strength_berries"
+    },
+    "Z": {
+      "item": "effectiveberries:regeneration_berries"
+    }
+  },
+    "pattern": [
+    " # ",
+    "X Z",
+    " Y "
+  ],
+  "result": {
+    "count": 1,
+    "id": "effectiveberries:jack_of_all_berries"
+  }
+}

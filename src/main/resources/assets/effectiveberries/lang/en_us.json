@@ -1,6 +1,11 @@
 {
   "item.effectiveberries.swiftness_berries": "Swiftness Berries",
   "item.effectiveberries.leaping_berries": "Leaping Berries",
+  "item.effectiveberries.strength_berries": "Strength Berries",
+  "item.effectiveberries.regeneration_berries": "Regeneration Berries",
+  "item.effectiveberries.jack_of_all_berries": "Jack of all Berries",
 
-  "creativetab.effectiveberries.effective_berries": "Effective Berries"
+  "creativetab.effectiveberries.effective_berries": "Effective Berries",
+
+  "tooltip.effectiveberries.jack_of_all_berries.tooltip": "What if I eat this?"
 }

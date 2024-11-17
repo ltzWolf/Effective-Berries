@@ -56,6 +56,9 @@ public class EffectiveBerries {
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.SWIFTNESS_BERRIES);
             event.accept(ModItems.LEAPING_BERRIES);
+            event.accept(ModItems.STRENGTH_BERRIES);
+            event.accept(ModItems.REGENERATION_BERRIES);
+            event.accept(ModItems.JACK_OF_ALL_BERRIES);
         }
     }
 

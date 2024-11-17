@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:glow_berries"
+    },
+    "X": {
+      "type": "neoforge:components",
+      "items": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {"potion": "minecraft:strong_strength"}
+      }
+    },
+    "Y": {
+      "item": "minecraft:dragon_breath"
+    }
+  },
+  "pattern": [
+    " X ",
+    "#Y#",
+    " # "
+  ],
+  "result": {
+    "count": 4,
+    "id": "effectiveberries:strength_berries"
+  }
+}
