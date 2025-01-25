@@ -9,7 +9,7 @@
       "type": "neoforge:components",
       "items": "minecraft:potion",
       "components": {
-        "minecraft:potion_contents": {"potion": "minecraft:strong_strength"}
+        "minecraft:potion_contents": {"potion": "minecraft:strong_regeneration"}
       }
     },
     "Y": {
@@ -22,7 +22,7 @@
     " # "
   ],
   "result": {
-    "count": 4,
-    "id": "effectiveberries:strength_berries"
+    "count": 3,
+    "id": "effectiveberries:berries_of_regeneration"
   }
 }

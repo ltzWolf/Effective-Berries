@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "effectiveberries:item/leaping_berries"
+    "layer0": "effectiveberries:item/berries_of_swiftness"
   }
 }

@@ -1,11 +1,9 @@
 {
-  "item.effectiveberries.swiftness_berries": "Swiftness Berries",
-  "item.effectiveberries.leaping_berries": "Leaping Berries",
-  "item.effectiveberries.strength_berries": "Strength Berries",
-  "item.effectiveberries.regeneration_berries": "Regeneration Berries",
-  "item.effectiveberries.jack_of_all_berries": "Jack of all Berries",
+  "item.effectiveberries.berries_of_swiftness": "Berries of Swiftness",
+  "item.effectiveberries.berries_of_leaping": "Berries of Leaping",
+  "item.effectiveberries.berries_of_strength": "Berries of Strength",
+  "item.effectiveberries.berries_of_regeneration": "Berries of Regeneration",
+  "item.effectiveberries.jack_of_all_berries": "Jack of All Berries",
 
-  "creativetab.effectiveberries.effective_berries": "Effective Berries",
-
-  "tooltip.effectiveberries.jack_of_all_berries.tooltip": "What if I eat this?"
+  "tooltip.effectiveberries.jack_of_all_berries.tooltip": "§cW§r§6h§r§ea§r§at§r §bi§r§5f§r §dI§r §ce§r§6a§r§et§r §at§r§bh§r§5i§r§ds§r§c?§r"
 }

@@ -1,4 +1,4 @@
-package net.wolf.effectiveberries;
+package net.itzwolf.effectiveberries;
 
 import java.util.List;
 import java.util.Set;

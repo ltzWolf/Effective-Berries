@@ -1,8 +1,7 @@
-package net.wolf.effectiveberries;
+package net.itzwolf.effectiveberries;
 
 import net.minecraft.world.item.CreativeModeTabs;
-import net.wolf.effectiveberries.item.ModCreativeModeTabs;
-import net.wolf.effectiveberries.item.ModItems;
+import net.itzwolf.effectiveberries.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -36,9 +35,7 @@ public class EffectiveBerries {
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
-
-        ModCreativeModeTabs.register(modEventBus);
-
+        
         ModItems.register(modEventBus);
 
         // Register the item to a creative tab
@@ -54,10 +51,10 @@ public class EffectiveBerries {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
-            event.accept(ModItems.SWIFTNESS_BERRIES);
-            event.accept(ModItems.LEAPING_BERRIES);
-            event.accept(ModItems.STRENGTH_BERRIES);
-            event.accept(ModItems.REGENERATION_BERRIES);
+            event.accept(ModItems.BERRIES_OF_SWIFTNESS);
+            event.accept(ModItems.BERRIES_OF_LEAPING);
+            event.accept(ModItems.BERRIES_OF_STRENGTH);
+            event.accept(ModItems.BERRIES_OF_REGENERATION);
             event.accept(ModItems.JACK_OF_ALL_BERRIES);
         }
     }

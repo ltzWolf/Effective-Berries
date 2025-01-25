@@ -3,16 +3,16 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "effectiveberries:swiftness_berries"
+      "item": "effectiveberries:berries_of_swiftness"
     },
     "X": {
-      "item": "effectiveberries:leaping_berries"
+      "item": "effectiveberries:berries_of_leaping"
     },
     "Y": {
-      "item": "effectiveberries:strength_berries"
+      "item": "effectiveberries:berries_of_strength"
     },
     "Z": {
-      "item": "effectiveberries:regeneration_berries"
+      "item": "effectiveberries:berries_of_regeneration"
     }
   },
     "pattern": [
